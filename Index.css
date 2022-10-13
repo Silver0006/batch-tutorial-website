@@ -12,7 +12,7 @@ body {
   /* Update Image to fit colorscheme */
   background-image: url(images/bt.png);
   background-size: 75px;
-  background-position: 15px;
+  background-position: 25px;
   background-repeat: no-repeat;
   line-height: 175%;
   text-indent: 1em;
