@@ -14,13 +14,13 @@ body {
   background-size: 10%;
   background-position: 10px;
   background-repeat: no-repeat;
-  line-height: 250%;
+  line-height: 175%;
   text-indent: 1em;
 }
 #uc {
   text-align: center;
   font-size: 50px;
 }
-nav {
-{ text-decoration: none; }
+a:link, a:visited, a:active {
+  text-decoration: none;
 }
