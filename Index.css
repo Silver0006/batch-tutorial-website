@@ -12,12 +12,11 @@ body {
   text-align: center;
   /* Update Image to fit colorscheme */
   background-image: url(images/bt.png);
-  background-size: 75px;
+  background-size: cover;
   background-position: 25px;
   background-repeat: no-repeat;
   line-height: 165%;
   text-indent: 1em;
-  overflow:auto;
 }
 #uc {
   text-align: center;
