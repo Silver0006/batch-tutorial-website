@@ -32,7 +32,8 @@ a:-webkit-any-link {
 }
 nav {
   color: #FFFFFF;	
-  flex-direction: row
+  display: flex;
+  flex-direction: row;
   margin: 10px;
 }
 footer {
