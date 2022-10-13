@@ -6,7 +6,6 @@ body {
 #bar {
   background-color: #090d10;
   color: #FFFFFF;
-  size: cover;
   margin: 0px; 
   width: auto;
   padding: 15px;
@@ -33,8 +32,6 @@ a:-webkit-any-link {
 }
 nav {
   color: #FFFFFF;	
-  width: 40px;
-  text-align: center;
 }
 footer {
   text-align: center;
