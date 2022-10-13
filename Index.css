@@ -11,8 +11,7 @@ h1 {
   padding: 15px;
   text-align: center;
   /* Update Image to fit colorscheme */
-  background-image: url(images/bt.png);
-  background-repeat: no-repeat;
+  background-image: url(images/bt.png) no-repeat;
   background-size: 10%;
 
 }
