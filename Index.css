@@ -1,14 +1,16 @@
+<link href='https://fonts.googleapis.com/css?family=Courier Prime' rel='stylesheet'>
+
 body {
   background-color: #212F3C;
   color: #FFFFFF;
-	
+  font-family: 'Courier Prime';
 }
 #bar {
   background-color: #090d10;
   color: #FFFFFF;
   size: cover;
   margin: 0px; 
-  width: auto;
+  width: 120%;
   padding: 15px;
   text-align: center;
   /* Update Image to fit colorscheme */
