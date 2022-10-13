@@ -11,7 +11,7 @@ body {
   text-align: center;
   /* Update Image to fit colorscheme */
   background-image: url(images/bt.png);
-  background-size: 10%;
+  background-size: 50px;
   background-position: 10px;
   background-repeat: no-repeat;
   line-height: 175%;
@@ -21,7 +21,7 @@ body {
   text-align: center;
   font-size: 50px;
 }
-a:link {
+a:-webkit-any-link {
   color: #FFFFFF;
   width: 100%;
   text-align: center;
@@ -30,7 +30,7 @@ a:link {
   width: 20px; 
 }
 nav {
-color: #FFFFFF;	
+  color: #FFFFFF;	
 }
 footer {
   text-align: center;
