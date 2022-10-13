@@ -11,8 +11,8 @@ body {
   text-align: center;
   /* Update Image to fit colorscheme */
   background-image: url(images/bt.png);
-  background-size: 125px;
-  background-position: 10px;
+  background-size: 75px;
+  background-position: 15px;
   background-repeat: no-repeat;
   line-height: 175%;
   text-indent: 1em;
