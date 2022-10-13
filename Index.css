@@ -29,10 +29,10 @@ a:-webkit-any-link {
   padding: 5px;
   text-decoration: none;
   width: 40px; 
+  margin: 10px;
 }
 nav {
   color: #FFFFFF;	
-  margin: 10px;
 }
 footer {
   text-align: center;
