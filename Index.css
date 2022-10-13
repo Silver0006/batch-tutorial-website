@@ -34,6 +34,9 @@ a:-webkit-any-link {
 nav {
   color: #FFFFFF;	
 }
+a:hover {
+background-color: #212F3C; 
+}
 footer {
   text-align: center;
 }
