@@ -27,7 +27,8 @@ a:link {
 }
 .navbar a {
 color: #FFFFFF;
-;
+width: 100%;
+text-align: left;
 }
 footer {
   text-align: center;
