@@ -13,5 +13,9 @@ h1 {
   /* Update Image to fit colorscheme */
   background-image: url(images/bt.png);
   background-size: 10%;
+  background-repeat: no-repeat;
+  background-position:right;
+  line-height: 400%;
+  text-indent: 1em;
 
 }
