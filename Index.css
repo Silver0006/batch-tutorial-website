@@ -7,14 +7,13 @@ h1 {
   background-color: #486784;
   color: #FFFFFF;
   margin: 0px; 
-  height: 100px;
   padding: 15px;
   text-align: center;
   /* Update Image to fit colorscheme */
   background-image: url(images/bt.png);
   background-size: 10%;
   background-repeat: no-repeat;
-  background-position:right;
+  background-position:left;
   line-height: 400%;
   text-indent: 1em;
 
