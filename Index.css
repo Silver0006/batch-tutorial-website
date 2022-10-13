@@ -12,8 +12,8 @@ h1 {
   background-size: 50%;
   vertical-align: middle;
   background-repeat: no-repeat;
-  background-image: url(images/bt.png);
   /* Update Image to fit colorscheme */
+  background-image: url(images/bt.png);
   
 
 }
