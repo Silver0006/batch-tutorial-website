@@ -17,6 +17,7 @@ body {
   background-repeat: no-repeat;
   line-height: 165%;
   text-indent: 1em;
+  overflow:auto;
 }
 #uc {
   text-align: center;
