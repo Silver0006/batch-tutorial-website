@@ -12,8 +12,10 @@ h1 {
   background-size: 20%;
   vertical-align: middle;
   background-repeat: no-repeat;
-  <!╌ Update Image to fit colorscheme ╌>
   background-image: url(images/bt.png);
+  /* Update Image to fit colorscheme */
+  
+
 }
 img src="images/bt.jpg" {
   width: 10px;
