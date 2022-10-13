@@ -33,6 +33,7 @@ a:-webkit-any-link {
 }
 nav {
   color: #FFFFFF;	
+  width: 40px;
 }
 footer {
   text-align: center;
