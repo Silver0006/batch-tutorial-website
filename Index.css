@@ -9,7 +9,7 @@ h1 {
   height: 60px;
   margin: 0px; 
   text-align: center;
-  background-size: 40% 40%;
+  background-size: 40% 40% 40% 40%;
   background-repeat: no-repeat;
   background-image: url(images/bt.png);
 }
