@@ -4,12 +4,15 @@ body {
 	
 }
 h1 {
-  background-color: #00B386;
-    color: #FFFFFF;
-	height: 60px;
-    padding-top: 15px;
-	margin: 0px; 
-	text-align: center;
+  background-color: #486784;
+  color: #FFFFFF;
+  height: 60px;
+  padding-top: 15px;
+  margin: 0px; 
+  text-align: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-image: url(images/sunsetHorse.png);
 }
 img src="images/bt.jpg" {
   width: 10px;
