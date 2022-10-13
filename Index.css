@@ -3,6 +3,14 @@ body {
   color: #FFFFFF;
 	
 }
+h1 {
+  background-color: #00B386;
+    color: #FFFFFF;
+	height: 60px;
+    padding-top: 15px;
+	margin: 0px; 
+	text-align: center;
+}
 img src="images/bt.jpg" {
   width: 10px;
 }
