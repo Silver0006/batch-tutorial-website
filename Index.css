@@ -21,6 +21,6 @@ body {
   text-align: center;
   font-size: 50px;
 }
-a:link, a:visited, a:active {
+a:-webkit-any-link {
   text-decoration: none;
 }
