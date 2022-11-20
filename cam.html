@@ -24,41 +24,45 @@
 <h2>Creating a Menu in Batch</h2>
 
 <div id="bmenu">
-<p>@ECHO off</p>
-<p>c</p>
-<p>cls</p>
-<p>:start</p>
-<p><span style="color: red">ECHO</span>.</p>
-<p><span style="color: red">ECHO</span> 1. 1</p>
-<p><span style="color: red">ECHO</span> 2. 2</p>
-<p><span style="color: red">ECHO</span> 3. 3</p>
-<p><span style="color: red">ECHO</span> 4. End</p>
+<p><span style="color: yellow">@ECHO off</span></p>
+<p><span style="color: yellow">c</span></p>
+<p><span style="color: yellow">cls</span></p>
+<p><span style="color: DodgerBlue">:</span><span style="color: green">start</span></p>
+<p><span style="color: red">ECHO</span><span style="color: green">.</span></p>
+<p><span style="color: red">ECHO</span><span style="color: green"> 1. 1</span></p>
+<p><span style="color: red">ECHO</span><span style="color: green"> 2. 2</span></p>
+<p><span style="color: red">ECHO</span><span style="color: green"> 3. 3</span></p>
+<p><span style="color: red">ECHO</span><span style="color: green"> 4. End</span></p>
 <p></p>
 <p>set choice=</p>
 <p>set /p choice=Type the number to load batch file.</p>
 <p>if not '%choice%'=='' set choice=%choice:~0,1%</p>
-<p>if '%choice%'=='1' goto 1</p>
-<p>if '%choice%'=='2' goto 2</p>
-<p>if '%choice%'=='3' goto 3</p>
-<p>if '%choice%'=='4' goto End</p>
+<p>if '%choice%'=='<span style="color: green">1</span>' <span style="color: orange">goto</span> <span style="color: green">1</span></p>
+<p>if '%choice%'=='<span style="color: green">2</span>' <span style="color: orange">goto</span> <span style="color: green">2</span></p>
+<p>if '%choice%'=='<span style="color: green">3</span>' <span style="color: orange">goto</span> <span style="color: green">3</span></p>
+<p>if '%choice%'=='<span style="color: green">4</span>' <span style="color: orange">goto</span> <span style="color: green">4</span></p>
 <p></p>
-<p><span style="color: red">ECHO</span> "%choice%" is not available, try again</p>
-<p><span style="color: red">ECHO</span>.</p>
-<p>goto start</p>
-<p><span style="color: red">ECHO</span> You chose option 1</p>
-<p>goto start</p>
-<p><span style="color: red">ECHO</span> You chose option 2</p>
-<p>goto start</p>
-<p><span style="color: red">ECHO</span> You chose option 3</p>
-<p>goto start</p>
-</p>
+<p><span style="color: red">ECHO</span> "%choice%" <span style="color: green">is not available, try again</span></p>
+<p><span style="color: red">ECHO</span><span style="color: green">.</span></p>
+<p><span style="color: orange">goto</span> <span style="color: green">start</span></p>
+<p><span style="color: DodgerBlue">:</span><span style="color: green">1</span></p>
+<p><span style="color: red">ECHO</span><span style="color: green"> You chose option 1</span></p>
+<p><span style="color: orange">goto</span> <span style="color: green">start</span></p>
+<p><span style="color: DodgerBlue">:</span><span style="color: green">2</span></p>
+<p><span style="color: red">ECHO</span><span style="color: green"> You chose option 2</span></p>
+<p><span style="color: orange">goto</span> <span style="color: green">start</span></p>
+<p><span style="color: DodgerBlue">:</span><span style="color: green">3</span></p>
+<p><span style="color: red">ECHO</span><span style="color: green"> You chose option 3</span></p>
+<p><span style="color: orange">goto</span> <span style="color: green">start</span></p>
 </div>
 
 
 
 <h3><u>Key</u></h3>
 <p><span style="color: red">ECHO</span> means that anything after it will be displayed back to the user</p>
-
+<p><span style="color: green">Changeable variable decided by writer</span></p>
+<p><span style="color: yellow">Basic Command</span></p>
+<p><span style="color: orange">goto </span><span style="color: green">Variable</span> means that the script will move to <span style="color: DodgerBlue">:</span><span style="color: green">Variable</span></p>
 
 <div id="camfooter">
 <hr></hr>
